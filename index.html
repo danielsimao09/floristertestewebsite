@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Florista</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            FLORES<span>.</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home">home</a>
+            <a href="#about">sobre</a>
+            <a href="#products">produtos</a>
+            <a href="#review">avaliações</a>
+            <a href="#contact">contacto</a>
+        </nav>
+
+        <div class="icons">
+
+            <button class="icon-btn" id="favoriteBtn">
+                <i class="fa-solid fa-heart"></i>
+                <span id="favoriteCount">0</span>
+            </button>
+
+            <button class="icon-btn" id="cartBtn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCount">0</span>
+            </button>
+
+            <button class="icon-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h1>flores frescas</h1>
+
+            <span>naturais & lindas flores</span>
+
+            <p>
+                Encontre os melhores bouquets de flores para tornar
+                qualquer momento ainda mais especial.
+            </p>
+
+            <a href="#products" class="btn">
+                comprar agora
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <h2 class="heading">
+            <span>sobre</span> nós
+        </h2>
+
+        <div class="about-row">
+
+            <div class="about-image">
+
+                <img src="img/flor 5.jpg" alt="Flores">
+
+                <h3>as melhores flores</h3>
+
+            </div>
+
+            <div class="about-content">
+
+                <h3>porquê escolher-nos?</h3>
+
+                <p>
+                    Trabalhamos todos os dias para oferecer flores
+                    bonitas, frescas e preparadas com muito carinho.
+                </p>
+
+                <p>
+                    Temos bouquets para aniversários, casamentos,
+                    datas especiais ou simplesmente para oferecer
+                    a alguém que gostamos.
+                </p>
+
+                <a href="#products" class="btn">
+                    saber mais
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ICONS ================= -->
+
+    <section class="features">
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-truck"></i>
+
+            <div>
+                <h3>entrega grátis</h3>
+                <p>em todos os pedidos</p>
+            </div>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-money-bill"></i>
+
+            <div>
+                <h3>pagamento seguro</h3>
+                <p>100% seguro</p>
+            </div>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-gift"></i>
+
+            <div>
+                <h3>ofertas especiais</h3>
+                <p>descontos todos os dias</p>
+            </div>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <div>
+                <h3>suporte</h3>
+                <p>contacte-nos quando quiser</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products" id="products">
+
+        <h2 class="heading">
+            últimos <span>produtos</span>
+        </h2>
+
+        <div class="product-grid">
+
+
+            <!-- PRODUTO 1 -->
+
+            <div class="product-card" data-name="Buquê Rosa" data-price="29.99">
+
+                <span class="discount">-10%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 1.jpg" alt="Buquê Rosa">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Buquê Rosa</h3>
+
+                    <div class="price">
+                        29,99€ <span>34,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 2 -->
+
+            <div class="product-card" data-name="Flores Coloridas" data-price="24.99">
+
+                <span class="discount">-15%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 2.jpg" alt="Flores Coloridas">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Flores Coloridas</h3>
+
+                    <div class="price">
+                        24,99€ <span>29,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 3 -->
+
+            <div class="product-card" data-name="Buquê Primavera" data-price="34.99">
+
+                <span class="discount">-20%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 3.jpg" alt="Buquê Primavera">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Buquê Primavera</h3>
+
+                    <div class="price">
+                        34,99€ <span>42,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 4 -->
+
+            <div class="product-card" data-name="Rosas Vermelhas" data-price="39.99">
+
+                <span class="discount">-12%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 4.jpg" alt="Rosas Vermelhas">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Rosas Vermelhas</h3>
+
+                    <div class="price">
+                        39,99€ <span>45,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 5 -->
+
+            <div class="product-card" data-name="Buquê Delicado" data-price="27.99">
+
+                <span class="discount">-18%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 5.jpg" alt="Buquê Delicado">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Buquê Delicado</h3>
+
+                    <div class="price">
+                        27,99€ <span>33,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 6 -->
+
+            <div class="product-card" data-name="Flores Românticas" data-price="31.99">
+
+                <span class="discount">-8%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 6.jpg" alt="Flores Românticas">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Flores Românticas</h3>
+
+                    <div class="price">
+                        31,99€ <span>35,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 7 -->
+
+            <div class="product-card" data-name="Buquê Especial" data-price="36.99">
+
+                <span class="discount">-10%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 7.jpg" alt="Buquê Especial">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Buquê Especial</h3>
+
+                    <div class="price">
+                        36,99€ <span>41,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 8 -->
+
+            <div class="product-card" data-name="Flores Campestres" data-price="22.99">
+
+                <span class="discount">-5%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 8.jpg" alt="Flores Campestres">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Flores Campestres</h3>
+
+                    <div class="price">
+                        22,99€ <span>25,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 9 -->
+
+            <div class="product-card" data-name="Rosas Cor-de-Rosa" data-price="28.99">
+
+                <span class="discount">-15%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 9.jpg" alt="Rosas Cor-de-Rosa">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Rosas Cor-de-Rosa</h3>
+
+                    <div class="price">
+                        28,99€ <span>34,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 10 -->
+
+            <div class="product-card" data-name="Buquê Amarelo" data-price="26.99">
+
+                <span class="discount">-10%</span>
+
+                <div class="product-image">
+
+                    <img src="img/flor 10.jpg" alt="Buquê Amarelo">
+
+                    <div class="product-icons">
+
+                        <button class="favorite">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+
+                        <button class="add-cart">
+                            adicionar ao carrinho
+                        </button>
+
+                        <button class="share">
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Buquê Amarelo</h3>
+
+                    <div class="price">
+                        26,99€ <span>31,99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section class="review" id="review">
+
+        <h2 class="heading">
+            avaliações de <span>clientes</span>
+        </h2>
+
+        <div class="review-grid">
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "As flores chegaram muito bonitas e frescas.
+                    Fiquei muito satisfeita com a compra!"
+                </p>
+
+                <div class="customer">
+
+                    <img src="img/pic 1.jpg" alt="Cliente">
+
+                    <div>
+                        <h3>Maria</h3>
+                        <span>cliente satisfeita</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Excelente qualidade e entrega muito rápida.
+                    Recomendo esta loja."
+                </p>
+
+                <div class="customer">
+
+                    <img src="img/pic 2.jpg" alt="Cliente">
+
+                    <div>
+                        <h3>Sofia</h3>
+                        <span>cliente satisfeita</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "O bouquet estava perfeito. As flores eram
+                    exatamente como nas fotografias."
+                </p>
+
+                <div class="customer">
+
+                    <img src="img/pic 3.jpg" alt="Cliente">
+
+                    <div>
+                        <h3>João</h3>
+                        <span>cliente satisfeito</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">
+            <span>contacte</span>-nos
+        </h2>
+
+        <div class="contact-container">
+
+            <form id="contactForm">
+
+                <input type="text"
+                    id="name"
+                    placeholder="Nome"
+                    required>
+
+                <input type="email"
+                    id="email"
+                    placeholder="Email"
+                    required>
+
+                <input type="tel"
+                    placeholder="Telefone">
+
+                <textarea
+                    id="message"
+                    placeholder="Mensagem"
+                    rows="6"
+                    required></textarea>
+
+                <button type="submit" class="btn">
+                    enviar mensagem
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CART ================= -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart" id="cart">
+
+        <div class="cart-header">
+
+            <h2>o meu carrinho</h2>
+
+            <button id="closeCart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <div class="cart-items" id="cartItems">
+
+            <p class="empty-cart">
+                O carrinho está vazio.
+            </p>
+
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                Total:
+                <strong id="cartTotal">0,00€</strong>
+            </div>
+
+            <button class="btn checkout" id="checkout">
+                finalizar compra
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h3>links rápidos</h3>
+
+                <a href="#home">home</a>
+                <a href="#about">sobre nós</a>
+                <a href="#products">produtos</a>
+                <a href="#review">avaliações</a>
+                <a href="#contact">contacto</a>
+
+            </div>
+
+
+            <div class="footer-box">
+
+                <h3>links extra</h3>
+
+                <a href="#">minha conta</a>
+                <a href="#">meus pedidos</a>
+                <a href="#">favoritos</a>
+
+            </div>
+
+
+            <div class="footer-box">
+
+                <h3>localização</h3>
+
+                <a href="#">Portugal</a>
+                <a href="#">Lisboa</a>
+                <a href="#">Porto</a>
+                <a href="#">Braga</a>
+
+            </div>
+
+
+            <div class="footer-box">
+
+                <h3>contacto</h3>
+
+                <a href="tel:+351912345678">
+                    +351 912 345 678
+                </a>
+
+                <a href="mailto:email@flowershop.pt">
+                    email@flowershop.pt
+                </a>
+
+                <p>
+                    Rua das Flores, Portugal
+                </p>
+
+                <img
+                    class="payment"
+                    src="img/payment icons.png"
+                    alt="Métodos de pagamento">
+
+            </div>
+
+        </div>
+
+
+        <div class="credit">
+
+            criado com <span>♥</span> | todos os direitos reservados
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
